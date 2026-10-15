@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "question": "Why should employees avoid reusing work passwords?",
+      "answerable": true,
+      "evidence": [
+        "attackers may try stolen"
+      ]
+    },
+    {
+      "question": "What should employees do if they receive an unexpected financial request?",
+      "answerable": true,
+      "evidence": [
+        "unexpected financial requests"
+      ]
+    },
+    {
+      "question": "What is an MFA fatigue attack?",
+      "answerable": true,
+      "evidence": [
+        "repeatedly sends"
+      ]
+    },
+    {
+      "question": "Does HTTPS guarantee that a website is legitimate?",
+      "answerable": true,
+      "evidence": [
+        "HTTPS does not guarantee"
+      ]
+    },
+    {
+      "question": "What information should employees include in a cybersecurity incident report?",
+      "answerable": true,
+      "evidence": [
+        "date and time"
+      ]
+    },
+    {
+      "question": "What should employees do after receiving an unexpected MFA prompt?",
+      "answerable": true,
+      "evidence": [
+        "deny the"
+      ]
+    },
+    {
+      "question": "What is the capital of France?",
+      "answerable": false,
+      "evidence": []
+    },
+    {
+      "question": "What exact dollar amount did the company lose in a ransomware attack in 2025?",
+      "answerable": false,
+      "evidence": []
+    }
+  ]
+}

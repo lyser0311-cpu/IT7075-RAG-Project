@@ -1,0 +1,70 @@
+[
+  {
+    "question_number": 1,
+    "question": "Why should employees avoid reusing work passwords?",
+    "expected_answerable": true,
+    "expected_evidence": [
+      "attackers may try stolen"
+    ],
+    "response": "[RAG] # Password Security\n\n## Creating Strong Passwords\nEmployees should use long, unique passwords for every work account.\nSource: password_security.md"
+  },
+  {
+    "question_number": 2,
+    "question": "What should employees do if they receive an unexpected financial request?",
+    "expected_answerable": true,
+    "expected_evidence": [
+      "unexpected financial requests"
+    ],
+    "response": "[RAG] Employees should verify\nunexpected financial requests through an independently\nconfirmed communication channel.\nSource: phishing_awareness.md"
+  },
+  {
+    "question_number": 3,
+    "question": "What is an MFA fatigue attack?",
+    "expected_answerable": true,
+    "expected_evidence": [
+      "repeatedly sends"
+    ],
+    "response": "[RAG] ## MFA Fatigue Attacks\nAn MFA fatigue attack occurs when an attacker repeatedly sends\nauthentication approval requests to a user's device, hoping the\nuser will eventually approve one.\nSource: multifactor_authentication.md"
+  },
+  {
+    "question_number": 4,
+    "question": "Does HTTPS guarantee that a website is legitimate?",
+    "expected_answerable": true,
+    "expected_evidence": [
+      "HTTPS does not guarantee"
+    ],
+    "response": "[RAG] However, HTTPS does not guarantee that\na website is legitimate because malicious websites can also\nuse valid HTTPS certificates.\nSource: safe_browsing.md"
+  },
+  {
+    "question_number": 5,
+    "question": "What information should employees include in a cybersecurity incident report?",
+    "expected_answerable": true,
+    "expected_evidence": [
+      "date and time"
+    ],
+    "response": "[RAG] ## Information to Include in a Report\nA useful incident report should include the date and time\nof the event, the affected device or account, a descr\nSource: incident_reporting.md"
+  },
+  {
+    "question_number": 6,
+    "question": "What should employees do after receiving an unexpected MFA prompt?",
+    "expected_answerable": true,
+    "expected_evidence": [
+      "deny the"
+    ],
+    "response": "[RAG] ## Responding to Suspicious MFA Requests\nEmployees who receive unexpected MFA prompts should deny the\nrequest and report it to the security team.\nSource: multifactor_authentication.md"
+  },
+  {
+    "question_number": 7,
+    "question": "What is the capital of France?",
+    "expected_answerable": false,
+    "expected_evidence": [],
+    "response": "[RAG] I don't have enough information in my documents to answer that question."
+  },
+  {
+    "question_number": 8,
+    "question": "What exact dollar amount did the company lose in a ransomware attack in 2025?",
+    "expected_answerable": false,
+    "expected_evidence": [],
+    "response": "[RAG] I don't have enough information in my documents to answer that question."
+  }
+]
