@@ -1,0 +1,77 @@
+{
+  "about": "Twelve original illustrative security alerts for the LangGraph triage mini project; six escalate and six close.",
+  "alerts": [
+    {
+      "id": "A01",
+      "alert": "EDR detected ransomware encrypting files on the accounting workstation.",
+      "expected": "escalate",
+      "note": "Active file encryption could disrupt operations and requires immediate containment."
+    },
+    {
+      "id": "A02",
+      "alert": "Firewall blocked an RCE exploit attempt against the public web server.",
+      "expected": "escalate",
+      "note": "An attempted exploit against an internet-facing system needs investigation even if blocked."
+    },
+    {
+      "id": "A03",
+      "alert": "Cloud audit log shows a new access key created for a dormant service account at 02:18.",
+      "expected": "escalate",
+      "note": "Unexpected credential creation on an unused account may indicate unauthorized access."
+    },
+    {
+      "id": "A04",
+      "alert": "Windows event log shows an admin account added to the Domain Admins group outside the change window.",
+      "expected": "escalate",
+      "note": "Unapproved privileged group membership can give an attacker broad access."
+    },
+    {
+      "id": "A05",
+      "alert": "Network sensor recorded a workstation sending 9 GB to an unfamiliar external address overnight.",
+      "expected": "escalate",
+      "note": "Unusual large outbound traffic could indicate data theft despite no obvious keyword."
+    },
+    {
+      "id": "A06",
+      "alert": "EDR flagged credential dumping behavior from an unsigned process on a payroll laptop.",
+      "expected": "escalate",
+      "note": "Attempts to access stored credentials can enable account compromise."
+    },
+    {
+      "id": "A07",
+      "alert": "Approved ransomware simulation ran on an isolated training VM during a scheduled exercise.",
+      "expected": "close",
+      "note": "This was an authorized test in an isolated environment, not an actual infection."
+    },
+    {
+      "id": "A08",
+      "alert": "Windows log recorded one mistyped password followed by a successful employee sign-in.",
+      "expected": "close",
+      "note": "A single corrected login mistake is common routine activity."
+    },
+    {
+      "id": "A09",
+      "alert": "Cloud audit log recorded the nightly backup service listing storage buckets on schedule.",
+      "expected": "close",
+      "note": "The known backup identity performed its expected scheduled operation."
+    },
+    {
+      "id": "A10",
+      "alert": "IDS recorded a critical scan signature from the company vulnerability scanner during its approved window.",
+      "expected": "close",
+      "note": "The scan was authorized and came from the organization\u2019s own scanner."
+    },
+    {
+      "id": "A11",
+      "alert": "EDR reported that an antivirus signature update completed on a receptionist laptop.",
+      "expected": "close",
+      "note": "A successful security definition update is normal maintenance."
+    },
+    {
+      "id": "A12",
+      "alert": "Windows event log recorded an approved administrator installing monthly patches on the test server.",
+      "expected": "close",
+      "note": "The activity matches an approved maintenance task."
+    }
+  ]
+}
